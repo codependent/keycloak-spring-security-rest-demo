@@ -6,4 +6,4 @@ It's necessary to get a token from the Auth server in order to invoke this servi
         -H "Authorization: Basic c2ItYXBwOmEyY2ViZmI2LTBjMzgtNDNiNS1hMDAwLThhYmUzYjU5YjJiMQ==" \
         -H "Content-Type: application/x-www-form-urlencoded" \
         -d 'username=jainigo&password=jainigo&grant_type=password' \
-        "http://localhost:8080/auth/realms/SampleRealm/protocol/openid-connect/token"
+        "http://localhost:8180/auth/realms/SampleRealm/protocol/openid-connect/token"

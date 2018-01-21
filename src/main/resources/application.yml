@@ -1,5 +1,5 @@
 server:
-  port: 9191
+  port: 9292
 
 keycloak:
   auth-server-url: http://localhost:8180/auth
@@ -8,7 +8,8 @@ keycloak:
   public-client: false
   principal-attribute: preferred_username
   credentials:
-    secret: f97d9997-7e1d-4dbc-b10e-a982e4797127
+    #secret: f97d9997-7e1d-4dbc-b10e-a982e4797127
+    secret: a2cebfb6-0c38-43b5-a000-8abe3b59b2b1
   bearer-only: true
 logging:
   level:

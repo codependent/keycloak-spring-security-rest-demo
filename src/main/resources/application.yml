@@ -1,0 +1,16 @@
+server:
+  port: 9191
+
+keycloak:
+  auth-server-url: http://localhost:8180/auth
+  realm: SampleRealm
+  resource: sb-app
+  public-client: false
+  principal-attribute: preferred_username
+  credentials:
+    secret: f97d9997-7e1d-4dbc-b10e-a982e4797127
+  bearer-only: true
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.keycloak: TRACE
